@@ -11,7 +11,7 @@ bcrypt==4.0.1   # stable with passlib and Python 3.11
 # LangChain + integrations
 langchain==0.2.7
 langchain-community==0.2.6
-langchain-google-genai==0.0.12   # required for ChatGoogleGenerativeAI
+langchain-google-genai==2.1.10   # ✅ correct latest version
 
 # Vector DBs
 chromadb==0.5.3
@@ -30,4 +30,3 @@ reportlab==4.1.0
 # Misc
 requests==2.32.4
 openai==1.40.3
-
